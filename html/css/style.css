@@ -1,0 +1,317 @@
+/* Mohamed Yassine Zahmoul */
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.shape{
+    margin: 50px 250px;
+}
+#navmenu{
+    margin: 0 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+header .logo{
+    width: 220px;
+}
+header .navmenu{
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+    list-style: none;
+}
+header li{
+    padding: 15px 15px;
+}
+header{
+    background-color: white;
+    position: sticky;
+    padding: 20px 0;
+    top: 0;
+    border-bottom: 1px solid #00b39b;
+}
+span{
+    color: #00b39b !important;
+}
+/* dropdown */
+ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.dropdown{
+    box-shadow: 22px 12px 22px -8px #000;
+}
+li {
+    color: #ababab;
+    float: left;
+    position: relative;
+    text-decoration: none;
+}
+.drop:hover{
+    background-color: #ebebeb;
+    color: #00b39b;
+}
+
+.dropdown li{
+    padding: 20px;
+    border-bottom: 1px solid #00b39b;
+    background-color: #fff;
+}
+li a{
+    color: #ababab;
+    text-decoration: none;
+}
+li a:hover{
+      color: #00b39b;
+}
+ul li ul{
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 30px;
+    position: absolute;
+    margin-top: 46px;
+    left: 0;
+    display: none;
+}
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block
+}
+  ul li ul li {
+    clear: both;
+    width: 100%;
+}
+  /* end dropdown */
+  /* section 1 */
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-img{
+    width: 60px;
+}
+h1{
+    color: #00b39b;
+    font-size: 30px;
+    font-weight: 100;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
+.container2 p{
+    width: 50%;
+    color: #747474;
+    font-size: 20px;
+
+}
+.p-left{
+    padding-right: 25px;
+}
+.p-right{
+    padding-left: 25px;
+}
+/* second section */
+.second-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.second-section h2{
+    color: white;
+}
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 1px solid #00b39b;
+    border-radius: 10px;
+    align-items: flex-start;
+    width: 27%;
+    padding: 25px 15px;
+    color: white;
+    -webkit-border-radius: 10px;
+}
+.h3-padding{
+    margin-bottom: 80px;
+}
+.turquoise{
+    background-color: #00b39b;
+}
+.blue{
+    background-color: #5190E2;
+}
+.dark{
+    background-color: #323D49;
+}
+.selector select {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 5px 0 0;
+    text-decoration: underline;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+option{
+    color: #000;
+}
+/* brands */
+.brands{
+    display: flex;
+    justify-content: space-between;
+}
+.text-brands{
+    width: 20%;
+    color: #00b39b;
+}
+.img-brands{
+    display: flex;
+    width: 75%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img-brands img{
+    width: 80px;
+    height: 80px;
+}
+/* fourth section */
+.fourth-section{
+    background-color: #DEF8F7;
+    padding: 20px 250px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(https://www.docplanner.com/img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 470px;
+    background-position-x: 240px;
+    background-position-y: 300px;
+}
+.fourth-section .right-side{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.left-side{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 45%;
+}
+.wizz {
+    height: 240px;
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+.wizz img{
+    height: 45px;
+}
+.left-left{
+    margin-top: 20px;
+}
+.left-side p{
+    color: #747474;
+    font-size: 13px;
+}
+.left-side{
+    margin-top: 70px;
+}
+h2{
+    color: #00b39b;
+    font-size: 25px;
+    font-weight: 100;
+}
+.fourth-section p{
+    color: #747474;
+    font-size: 13px;
+}
+/* 5th section */
+.fifth-section h2{
+    text-align: center;
+}
+.fifth-section p{
+    text-align: center;
+}
+.countries{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.countries img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.medina{
+    color: #747474;
+}
+.countries a{
+    text-decoration: none;
+}
+.btn{
+    border-radius: 10px;
+    background-color: #3d83df;
+    color: white;
+    padding: 10px 20px;
+    font-size: smaller;
+}
+.div-shape{
+    border: 1px solid #ababab62;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.div-shape:hover{
+    box-shadow: 2px 2px 10px #000;
+}
+/* 6th section */
+.section6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+.p-btn{
+    border-radius: 10px;
+    background-color: #3d83df;
+    color: white;
+    width: fit-content;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: medium;
+}
+a{
+    text-decoration: none;
+}
+.solid{
+    width: 100%;
+}
+/* footer */
+footer{
+    text-align: center;
+    color: #ababab;
+    font-size: smaller;
+}
